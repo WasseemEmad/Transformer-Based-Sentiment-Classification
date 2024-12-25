@@ -24,13 +24,20 @@ Visualizations such as training loss over epochs.
 # Model Inference
 ## To use the trained model for predictions:
 1 Load the saved model weights:
-  1.1 model.load_state_dict(torch.load("sentiment_model.pth"))
+
+  1.1 model.load_state_dict(torch.load("sentiment_model_final.pth"))
+
   1.2 model.eval()
+  
 2 Pass your input text to the preprocessing pipeline and feed it to the model.
 
 # Key Components of a Transformer
 1 Self-Attention Mechanism
+
 2 Multi-Head Attention
+
 3 Positional Encoding
+
 4 Feed-Forward Neural Networks
+
 5 Layer Normalization and Residual Connections
